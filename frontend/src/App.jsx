@@ -23,7 +23,7 @@ function App() {
     setAnswer("");
 
     try {
-      const response = await fetch(`${BACKEND_URL}/ask`, {
+      const response = await fetch("https://ask-my-notes-w5a8.onrender.com/ask", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
